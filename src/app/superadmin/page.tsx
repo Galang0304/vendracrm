@@ -183,7 +183,7 @@ export default function SuperAdminDashboard() {
             Welcome, SuperAdmin!
           </h2>
           <p className="text-purple-100 text-lg">
-            System Management Dashboard • Vendra AI CRM
+            Halo balqis pakai baju hitam
           </p>
         </div>
 
