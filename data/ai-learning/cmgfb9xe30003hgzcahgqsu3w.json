@@ -1,0 +1,50 @@
+{
+  "companyId": "cmgfb9xe30003hgzcahgqsu3w",
+  "companyName": "LAZUNA",
+  "totalInteractions": 19,
+  "commonQuestions": [
+    {
+      "question": "general_inquiry",
+      "frequency": 16,
+      "lastAsked": "2025-10-08T18:37:34.623Z"
+    },
+    {
+      "question": "inventory_inquiry",
+      "frequency": 3,
+      "lastAsked": "2025-10-08T18:38:20.409Z"
+    }
+  ],
+  "businessPatterns": {
+    "peakHours": [
+      "01:00",
+      "02:00"
+    ],
+    "topCategories": [],
+    "userPreferences": {
+      "responseStyle": "detailed",
+      "includeEmojis": true,
+      "preferredTopics": [
+        "products"
+      ]
+    }
+  },
+  "performanceMetrics": {
+    "averageResponseTime": 1500,
+    "userSatisfaction": 4,
+    "mostAskedTopics": []
+  },
+  "contextualKnowledge": {
+    "businessInsights": [
+      "small_team",
+      "single_product_risk"
+    ],
+    "seasonalPatterns": [],
+    "industryTips": [
+      "Customer retention lebih murah 5x dari akuisisi customer baru",
+      "Inventory turnover yang sehat adalah 4-6x per tahun",
+      "Peak hours biasanya 10-12 dan 15-17 untuk retail",
+      "Digital payment adoption meningkat 40% dalam 2 tahun"
+    ]
+  },
+  "lastUpdated": "2025-10-08T18:38:20.409Z"
+}

@@ -1,0 +1,103 @@
+{
+  "companyId": "cmgo0yz5n0005hg3gnu12df95",
+  "companyName": "pt baju",
+  "industry": "General Retail",
+  "businessType": "Large Retail Store",
+  "products": {
+    "categories": [
+      "Choco Drink",
+      "Energy Bar",
+      "Chocolate Bar",
+      "Spread",
+      "General"
+    ],
+    "topSellers": [
+      {
+        "name": "Almond Cranberries - 1 pcs",
+        "sales": 244
+      },
+      {
+        "name": "Cashew Dates - 1 pcs",
+        "sales": 222
+      },
+      {
+        "name": "Lactation - 35 gr",
+        "sales": 164
+      },
+      {
+        "name": "Stress Reliever - 35 gr",
+        "sales": 96
+      },
+      {
+        "name": "Mind Relaxing - 35 gr",
+        "sales": 88
+      },
+      {
+        "name": "Immune Booster - 35 gr",
+        "sales": 82
+      },
+      {
+        "name": "Sleeping Well - 35 gr",
+        "sales": 74
+      },
+      {
+        "name": "Lactation - 90 gr",
+        "sales": 70
+      },
+      {
+        "name": "Stress Release - 25 gr",
+        "sales": 64
+      },
+      {
+        "name": "Immune Booster Chocodrink - 25 gr",
+        "sales": 58
+      }
+    ],
+    "seasonalTrends": []
+  },
+  "customers": {
+    "segments": [
+      "Niche Market",
+      "High Customer Loyalty"
+    ],
+    "behaviors": [],
+    "preferences": []
+  },
+  "operations": {
+    "peakHours": [
+      "2:00"
+    ],
+    "busyDays": [
+      "Monday"
+    ],
+    "challenges": [],
+    "goals": []
+  },
+  "conversationPatterns": {
+    "commonQuestions": [
+      {
+        "question": "hai",
+        "frequency": 1
+      }
+    ],
+    "userStyle": "casual",
+    "preferredResponseLength": "medium",
+    "topics": []
+  },
+  "insights": {
+    "strengths": [
+      "Diverse product portfolio"
+    ],
+    "opportunities": [
+      "Increase average order value through upselling"
+    ],
+    "recommendations": [
+      "Focus marketing on Choco Drink - your best performing category"
+    ],
+    "predictions": [
+      "Sales trend is positive - expect continued growth"
+    ]
+  },
+  "lastUpdated": "2025-10-13T05:13:39.113Z",
+  "learningScore": 90.1
+}

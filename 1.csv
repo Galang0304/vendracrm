@@ -1,0 +1,20 @@
+﻿January 2021;;;;;;;;;;;;;;;;;;;;
+sales_items_by_brands;;;;;;;;;;;;;;;;;;;;
+order no;order time;brand;brand comission rate;brand comission amount;item group;item name;item sku;qty;currency;price;add-on price;discount percent;discount amount;amount;tax amount;cost perunit;total cost;profit;paid to brand;payment type
+065321010200000075;2021-01-02 15:15:36;Nichoa;0;0;Chocolate Bar;Stress Reliever - 35 gr;SR-1;1;IDR;28000;0;0;0;28000;0;19983;19983;8017;28000;BRI Andri Setyowati
+065321010200000075;2021-01-02 15:15:36;Nichoa;0;0;Chocolate Bar;Mind Relaxing - 35 gr;MR-1;1;IDR;28000;0;0;0;28000;0;20902;20902;7098;28000;BRI Andri Setyowati
+065321010200000075;2021-01-02 15:15:36;Nichoa;0;0;Chocolate Bar;Sleeping Well - 35 gr;SW-1;1;IDR;28000;0;0;0;28000;0;22201;22201;5799;28000;BRI Andri Setyowati
+065321010200000075;2021-01-02 15:15:36;Nichoa;0;0;Chocolate Bar;Immune Booster - 35 gr;IM-1;1;IDR;28000;0;0;0;28000;0;23121;23121;4879;28000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;Nichoa;0;0;Chocolate Bar;Immune Booster - 35 gr;IM-1;2;IDR;28000;0;0;0;56000;0;23121;46242;9758;56000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;Nichoa;0;0;Chocolate Bar;Mind Relaxing - 35 gr;MR-1;1;IDR;28000;0;0;0;28000;0;20902;20902;7098;28000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;Nichoa;0;0;Chocolate Bar;Workout Buddy - 35 gr;WB-1;1;IDR;28000;0;0;0;28000;0;20538;20538;7462;28000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;;0;0;Chocolate Bar;Honeycomb Dark chocolate;;1;IDR;30000;0;0;0;30000;0;0;0;30000;30000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;Nichoa;0;0;Energy Bar;Almond Cranberries - 1 pcs;EBA-0;1;IDR;10000;0;0;0;10000;0;4558;4558;5442;10000;BRI Andri Setyowati
+065321010200000076;2021-01-02 15:18:40;Nichoa;0;0;Energy Bar;Cashew Dates - 1 pcs;EBC-0;1;IDR;10000;0;0;0;10000;0;4595;4595;5405;10000;BRI Andri Setyowati
+065321010500000077;2021-01-05 15:10:26;Nichoa;0;0;Spread;Almond Butter - 225 gr;;1;IDR;80000;0;0;0;80000;0;64742;64742;15258;80000;BRI Andri Setyowati
+065321010500000077;2021-01-05 15:10:26;Nichoa;0;0;Chocolate Bar;Pregnancy - 90 gr;Pregnancy-0;1;IDR;46000;0;0;0;46000;0;35451;35451;10549;46000;BRI Andri Setyowati
+065321010500000077;2021-01-05 15:10:26;Nichoa;0;0;Chocolate Bar;Immune Booster - 35 gr;IM-1;1;IDR;28000;0;0;0;28000;0;23121;23121;4879;28000;BRI Andri Setyowati
+065321010600000078;2021-01-06 15:28:17;Nichoa;0;0;Energy Bar;Almond Cranberries - 1 pcs;EBA-0;1;IDR;10000;0;0;0;10000;0;4558;4558;5442;10000;Pembelian Via Shopee
+065321010600000078;2021-01-06 15:28:17;Nichoa;0;0;Energy Bar;Cashew Dates - 1 pcs;EBC-0;1;IDR;10000;0;0;0;10000;0;4595;4595;5405;10000;Pembelian Via Shopee
+065321010600000078;2021-01-06 15:28:17;Nichoa;0;0;Chocolate Bar;Sleeping Well - 35 gr;SW-1;1;IDR;28000;0;0;0;28000;0;22201;22201;5799;28000;Pembelian Via Shopee
+065321010600000078;2021-01-06 15:28:17;Nichoa;0;0;Chocolate Bar;Mind Relaxing - 35 gr;MR-1;1;IDR;28000;0;0;0;28000;0;20902;20902;7098;28000;Pembelian Via Shopee

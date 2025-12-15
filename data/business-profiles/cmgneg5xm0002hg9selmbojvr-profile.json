@@ -1,0 +1,51 @@
+{
+  "companyId": "cmgneg5xm0002hg9selmbojvr",
+  "companyName": "pt baju",
+  "industry": "General Retail",
+  "businessType": "Startup/New Business",
+  "products": {
+    "categories": [],
+    "topSellers": [],
+    "seasonalTrends": []
+  },
+  "customers": {
+    "segments": [
+      "Niche Market"
+    ],
+    "behaviors": [],
+    "preferences": []
+  },
+  "operations": {
+    "peakHours": [],
+    "busyDays": [],
+    "challenges": [
+      "Low sales volume - need marketing boost"
+    ],
+    "goals": [
+      "Expand product catalog to 50+ items",
+      "Increase monthly transactions to 100+",
+      "Upgrade to BASIC plan for more features"
+    ]
+  },
+  "conversationPatterns": {
+    "commonQuestions": [
+      {
+        "question": "HAI",
+        "frequency": 1
+      }
+    ],
+    "userStyle": "casual",
+    "preferredResponseLength": "medium",
+    "topics": []
+  },
+  "insights": {
+    "strengths": [],
+    "opportunities": [
+      "Expand into new product categories"
+    ],
+    "recommendations": [],
+    "predictions": []
+  },
+  "lastUpdated": "2025-10-12T08:54:23.598Z",
+  "learningScore": 0.1
+}

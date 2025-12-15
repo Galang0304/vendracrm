@@ -1,0 +1,245 @@
+{
+  "companyId": "cmgfb9xe30003hgzcahgqsu3w",
+  "companyName": "LAZUNA",
+  "industry": "General Retail",
+  "businessType": "Startup/New Business",
+  "products": {
+    "categories": [
+      "manusia"
+    ],
+    "topSellers": [],
+    "seasonalTrends": []
+  },
+  "customers": {
+    "segments": [
+      "Niche Market"
+    ],
+    "behaviors": [],
+    "preferences": []
+  },
+  "operations": {
+    "peakHours": [],
+    "busyDays": [],
+    "challenges": [
+      "Low sales volume - need marketing boost"
+    ],
+    "goals": [
+      "Expand product catalog to 50+ items",
+      "Increase monthly transactions to 100+"
+    ]
+  },
+  "conversationPatterns": {
+    "commonQuestions": [
+      {
+        "question": "hai",
+        "frequency": 19
+      },
+      {
+        "question": "Buatkan laporan performa bisnis untuk minggu ini",
+        "frequency": 5
+      },
+      {
+        "question": "brpa toko saya ",
+        "frequency": 2
+      },
+      {
+        "question": "tampilkan date data nya ",
+        "frequency": 2
+      },
+      {
+        "question": "Berikan rekomendasi strategi untuk mengoptimalkan operasional bisnis",
+        "frequency": 2
+      },
+      {
+        "question": "saya premium?",
+        "frequency": 1
+      },
+      {
+        "question": "apa nama produk sya ",
+        "frequency": 1
+      },
+      {
+        "question": "di sini ada crm nya ?",
+        "frequency": 1
+      },
+      {
+        "question": "apakah ada transaksi ?",
+        "frequency": 1
+      },
+      {
+        "question": "iya berikan tabel nya ",
+        "frequency": 1
+      },
+      {
+        "question": "kosong ya ?",
+        "frequency": 1
+      },
+      {
+        "question": "pt baju coba ",
+        "frequency": 1
+      },
+      {
+        "question": "ada brpa toko?",
+        "frequency": 1
+      },
+      {
+        "question": "haiii",
+        "frequency": 1
+      },
+      {
+        "question": "anjay kamu sudah bisa lihat data aku dev nya kenalin ",
+        "frequency": 1
+      },
+      {
+        "question": "saya yang buat kamuuu",
+        "frequency": 1
+      },
+      {
+        "question": "superadmin sapa?",
+        "frequency": 1
+      },
+      {
+        "question": "iya?",
+        "frequency": 1
+      },
+      {
+        "question": "apa saja produk yang ada di dalam toko saya ",
+        "frequency": 1
+      },
+      {
+        "question": "hai?",
+        "frequency": 1
+      },
+      {
+        "question": "bmna sekarang ?",
+        "frequency": 1
+      },
+      {
+        "question": "apa bisnis saya ",
+        "frequency": 1
+      },
+      {
+        "question": "sakala brpa bulan?\n",
+        "frequency": 1
+      },
+      {
+        "question": "di bulan brpa ini ?",
+        "frequency": 1
+      },
+      {
+        "question": "sdh berapa lama saya menjual",
+        "frequency": 1
+      },
+      {
+        "question": "produk yang paling mahal apa ?",
+        "frequency": 1
+      },
+      {
+        "question": "Total Profit\n\n",
+        "frequency": 1
+      },
+      {
+        "question": "Members?",
+        "frequency": 1
+      },
+      {
+        "question": "brpa transaksi ?",
+        "frequency": 1
+      },
+      {
+        "question": "ha?",
+        "frequency": 1
+      },
+      {
+        "question": "brpa total revune saya ",
+        "frequency": 1
+      },
+      {
+        "question": "brpa revune saya ?",
+        "frequency": 1
+      },
+      {
+        "question": "brpa?",
+        "frequency": 1
+      },
+      {
+        "question": "itu keseluruhan ?",
+        "frequency": 1
+      },
+      {
+        "question": "Rata-rata Frekuensi",
+        "frequency": 1
+      },
+      {
+        "question": "Rata-rata Recency\n\n",
+        "frequency": 1
+      },
+      {
+        "question": "brpa revune nya sekarang ?",
+        "frequency": 1
+      },
+      {
+        "question": "buat kan laporan penjualan lengkap ",
+        "frequency": 1
+      },
+      {
+        "question": "brpa toko saaya ",
+        "frequency": 1
+      },
+      {
+        "question": " berapa toko saya ?",
+        "frequency": 1
+      },
+      {
+        "question": "apa nama toko saya ?",
+        "frequency": 1
+      },
+      {
+        "question": "bmna crm nya ?",
+        "frequency": 1
+      },
+      {
+        "question": "berikan detail tanggal bulan tahun nya ",
+        "frequency": 1
+      },
+      {
+        "question": "siapa saya ",
+        "frequency": 1
+      },
+      {
+        "question": "Bagaimana cara meningkatkan produktivitas dan performa tim karyawan?",
+        "frequency": 1
+      },
+      {
+        "question": "kira kira apa yang kamu butuh kan api lagi ?",
+        "frequency": 1
+      },
+      {
+        "question": "analisis rfm nya dan crm nya ",
+        "frequency": 1
+      },
+      {
+        "question": "Analisis trend penjualan dan berikan insights untuk meningkatkan revenue",
+        "frequency": 1
+      }
+    ],
+    "userStyle": "casual",
+    "preferredResponseLength": "medium",
+    "topics": [
+      "products",
+      "reports",
+      "sales",
+      "employees"
+    ]
+  },
+  "insights": {
+    "strengths": [],
+    "opportunities": [
+      "Expand into new product categories"
+    ],
+    "recommendations": [],
+    "predictions": []
+  },
+  "lastUpdated": "2025-10-30T07:01:22.913Z",
+  "learningScore": 47.300000000000104
+}

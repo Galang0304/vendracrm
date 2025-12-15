@@ -1,0 +1,55 @@
+{
+  "companyId": "cmgibq4q10002hg6od0ybg6v8",
+  "companyName": "pt baju",
+  "industry": "General Retail",
+  "businessType": "Startup/New Business",
+  "products": {
+    "categories": [],
+    "topSellers": [],
+    "seasonalTrends": []
+  },
+  "customers": {
+    "segments": [
+      "Niche Market"
+    ],
+    "behaviors": [],
+    "preferences": []
+  },
+  "operations": {
+    "peakHours": [],
+    "busyDays": [],
+    "challenges": [
+      "Low sales volume - need marketing boost"
+    ],
+    "goals": [
+      "Expand product catalog to 50+ items",
+      "Increase monthly transactions to 100+",
+      "Upgrade to BASIC plan for more features"
+    ]
+  },
+  "conversationPatterns": {
+    "commonQuestions": [
+      {
+        "question": "hai",
+        "frequency": 2
+      },
+      {
+        "question": "ada data saya ?",
+        "frequency": 1
+      }
+    ],
+    "userStyle": "casual",
+    "preferredResponseLength": "medium",
+    "topics": []
+  },
+  "insights": {
+    "strengths": [],
+    "opportunities": [
+      "Expand into new product categories"
+    ],
+    "recommendations": [],
+    "predictions": []
+  },
+  "lastUpdated": "2025-10-08T20:09:53.934Z",
+  "learningScore": 0.30000000000000004
+}

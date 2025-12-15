@@ -1,0 +1,42 @@
+{
+  "companyId": "cmgibq4q10002hg6od0ybg6v8",
+  "companyName": "pt baju",
+  "totalInteractions": 10,
+  "commonQuestions": [
+    {
+      "question": "general_inquiry",
+      "frequency": 10,
+      "lastAsked": "2025-10-08T19:47:36.054Z"
+    }
+  ],
+  "businessPatterns": {
+    "peakHours": [
+      "02:00",
+      "03:00"
+    ],
+    "topCategories": [],
+    "userPreferences": {
+      "responseStyle": "detailed",
+      "includeEmojis": true,
+      "preferredTopics": []
+    }
+  },
+  "performanceMetrics": {
+    "averageResponseTime": 1500,
+    "userSatisfaction": 4,
+    "mostAskedTopics": []
+  },
+  "contextualKnowledge": {
+    "businessInsights": [
+      "small_team"
+    ],
+    "seasonalPatterns": [],
+    "industryTips": [
+      "Customer retention lebih murah 5x dari akuisisi customer baru",
+      "Inventory turnover yang sehat adalah 4-6x per tahun",
+      "Peak hours biasanya 10-12 dan 15-17 untuk retail",
+      "Digital payment adoption meningkat 40% dalam 2 tahun"
+    ]
+  },
+  "lastUpdated": "2025-10-08T19:47:36.054Z"
+}
