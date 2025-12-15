@@ -8,9 +8,9 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXTAUTH_URL || process.env.APP_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://localhost:${process.env.PORT || '3000'}`)),
   title: 'Vendra AI CRM - Smart Business Management',
-  description: 'Solusi lprocess.env.NEXTAUTH_URL || process.env.APP_URL || process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://localhost:${process.env.PORT || '3000'}`bisnis Anda dengan sistem POS modern, analisis RFM yang canggih, dan manajemen pelanggan yang cerdas.',
+  description: 'Solusi lengkap untuk mengelola bisnis Anda dengan sistem POS modern, analisis RFM yang canggih, dan manajemen pelanggan yang cerdas.',
   keywords: 'CRM, POS, Point of Sale, RFM Analysis, Business Management, Inventory Management, Customer Analytics, Kasir, Retail',
   authors: [{ name: 'Vendra Team' }],
   creator: 'Vendra',
