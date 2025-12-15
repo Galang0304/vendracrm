@@ -1,6 +1,17 @@
 # 🚀 Vendra CRM - Server Deployment Guide
 # Server: galang0304@103.151.145.182
 
+## 🎉 DEPLOYMENT SUKSES!
+✅ **URL Aplikasi**: http://103.151.145.182:8081
+✅ **Login Credentials**:
+- Email: `superadmin@vendra.com`
+- Password: `superadmin123`
+
+## Database Configuration
+- **MySQL User**: `vendracrm` (password: `vendra2025db!`)
+- **Database**: `vendra_crm`
+- **Connection**: `mysql://vendracrm:vendra2025db!@localhost:3306/vendra_crm`
+
 ## Quick Setup Commands (Copy & Paste di SSH)
 
 ### 1. Install Node.js (jika belum ada)
