@@ -80,19 +80,8 @@ export default function SignInPage() {
       if (result?.error) {
         setError('Email atau password salah')
       } else if (result?.ok) {
-        // Wait a bit for session to be created
-        await new Promise(resolve => setTimeout(resolve, 500))
-        
-        // Get session after delay
-        const session = await getSession()
-        
-        if (session?.user) {
-          // Redirect based on role
-          redirectBasedOnRole(session.user.role)
-        } else {
-          // If still no session, force reload to dashboard
-          window.location.href = '/admin/dashboard'
-        }
+        // Login successful - redirect to admin (session will be checked by middleware)
+        window.location.href = '/admin'
       }
     } catch (error) {
       console.error('Login error:', error)
