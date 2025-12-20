@@ -68,21 +68,31 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
 
   const handleSignOut = async () => {
     try {
-      // Call logout API first
+      // Call logout API first to clear server-side session
       await fetch('/api/auth/logout', { method: 'POST' })
       
-      // Then sign out with NextAuth
+      // Clear all NextAuth cookies manually
+      document.cookie.split(";").forEach((c) => {
+        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+      });
+      
+      // Sign out with NextAuth (don't redirect)
       await signOut({ 
-        callbackUrl: '/',
         redirect: false 
       })
       
-      // Force redirect to home
-      window.location.href = '/'
+      // Wait a bit to ensure session is cleared
+      await new Promise(resolve => setTimeout(resolve, 100))
+      
+      // Force redirect to signin page
+      window.location.href = '/auth/signin'
     } catch (error) {
       console.error('Logout error:', error)
-      // Fallback: force redirect to homepage
-      window.location.href = '/'
+      // Fallback: clear cookies and redirect
+      document.cookie.split(";").forEach((c) => {
+        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+      });
+      window.location.href = '/auth/signin'
     }
   }
 

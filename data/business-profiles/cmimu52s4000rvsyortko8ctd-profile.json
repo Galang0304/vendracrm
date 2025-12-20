@@ -87,6 +87,10 @@
       {
         "question": "apa saja yang sya jual?",
         "frequency": 1
+      },
+      {
+        "question": "hai sebutkan smua 26 itu ",
+        "frequency": 1
       }
     ],
     "userStyle": "casual",
@@ -105,6 +109,6 @@
       "Sales trend needs attention - consider promotional activities"
     ]
   },
-  "lastUpdated": "2025-12-20T03:07:35.889Z",
-  "learningScore": 90.19999999999999
+  "lastUpdated": "2025-12-20T05:41:49.472Z",
+  "learningScore": 90.29999999999998
 }

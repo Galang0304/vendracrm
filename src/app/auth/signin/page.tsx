@@ -14,13 +14,36 @@ export default function SignInPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
+  const [checkingSession, setCheckingSession] = useState(true)
   const router = useRouter()
 
-  // Auto redirect if already logged in
+  // Check session and redirect if authenticated
   useEffect(() => {
-    if (status === 'authenticated' && session?.user) {
-      redirectBasedOnRole(session.user.role)
+    const checkSession = async () => {
+      if (status === 'loading') {
+        return
+      }
+      
+      if (status === 'authenticated' && session?.user) {
+        // Double-check session is valid by calling API
+        try {
+          const response = await fetch('/api/auth/session')
+          const sessionData = await response.json()
+          
+          if (sessionData?.user) {
+            redirectBasedOnRole(sessionData.user.role)
+          } else {
+            setCheckingSession(false)
+          }
+        } catch {
+          setCheckingSession(false)
+        }
+      } else {
+        setCheckingSession(false)
+      }
     }
+    
+    checkSession()
   }, [session, status])
 
   const redirectBasedOnRole = (role: string) => {
