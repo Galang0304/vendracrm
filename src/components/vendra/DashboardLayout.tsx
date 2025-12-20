@@ -68,57 +68,15 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
 
   const handleSignOut = async () => {
     try {
-      // Clear localStorage and sessionStorage
-      localStorage.clear()
-      sessionStorage.clear()
-      
-      // Delete all cookies explicitly
-      const deleteCookie = (name: string) => {
-        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`
-        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${window.location.hostname};`
-      }
-      
-      // Delete NextAuth cookies
-      deleteCookie('next-auth.session-token')
-      deleteCookie('__Secure-next-auth.session-token')
-      deleteCookie('next-auth.csrf-token')
-      deleteCookie('__Host-next-auth.csrf-token')
-      deleteCookie('next-auth.callback-url')
-      deleteCookie('__Secure-next-auth.callback-url')
-      
-      // Call logout API
-      await fetch('/api/auth/logout', { 
-        method: 'POST',
-        credentials: 'include'
-      })
-      
-      // SignOut from NextAuth
+      // Sign out using NextAuth
       await signOut({ 
-        redirect: false,
-        callbackUrl: '/auth/signin'
+        callbackUrl: '/auth/signin',
+        redirect: true
       })
-      
-      // Force clear all cookies again
-      document.cookie.split(";").forEach((c) => {
-        const name = c.split("=")[0].trim()
-        deleteCookie(name)
-      })
-      
-      // Wait to ensure everything is cleared
-      await new Promise(resolve => setTimeout(resolve, 200))
-      
-      // Force hard redirect (bypass cache)
-      window.location.replace('/auth/signin')
-      
     } catch (error) {
       console.error('Logout error:', error)
-      // Emergency fallback
-      localStorage.clear()
-      sessionStorage.clear()
-      document.cookie.split(";").forEach((c) => {
-        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date(0).toUTCString() + ";path=/");
-      })
-      window.location.replace('/auth/signin')
+      // Force redirect if signOut fails
+      window.location.href = '/auth/signin'
     }
   }
 

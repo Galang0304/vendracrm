@@ -15,46 +15,25 @@ export default function SignInPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
   const [checkingSession, setCheckingSession] = useState(true)
-  const [isLoggingIn, setIsLoggingIn] = useState(false)
   const router = useRouter()
 
   // Check session and redirect if authenticated
   useEffect(() => {
-    // Skip session check if user is actively logging in
-    if (isLoggingIn) {
-      return
-    }
-    
     const checkSession = async () => {
       if (status === 'loading') {
         setCheckingSession(true)
         return
       }
       
-      try {
-        // Force fresh session check from server (only on initial load)
-        const response = await fetch('/api/auth/session', {
-          cache: 'no-store',
-          headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
-          }
-        })
-        const sessionData = await response.json()
-        
-        if (sessionData?.user && status === 'authenticated') {
-          redirectBasedOnRole(sessionData.user.role)
-        } else {
-          setCheckingSession(false)
-        }
-      } catch (error) {
-        console.error('Session check error:', error)
+      if (status === 'authenticated' && session?.user) {
+        redirectBasedOnRole(session.user.role)
+      } else {
         setCheckingSession(false)
       }
     }
     
     checkSession()
-  }, [status, isLoggingIn])
+  }, [status, session])
 
   const redirectBasedOnRole = (role: string) => {
     switch (role) {
@@ -77,7 +56,6 @@ export default function SignInPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
-    setIsLoggingIn(true)
     setError('')
 
     try {
@@ -101,33 +79,18 @@ export default function SignInPage() {
 
       if (result?.error) {
         setError('Email atau password salah')
-        setIsLoggingIn(false)
       } else {
-        // Wait for session to be established
-        await new Promise(resolve => setTimeout(resolve, 500))
-        
-        // Get fresh session
+        // Get session
         const session = await getSession()
         
         if (session?.user) {
-          // Redirect based on role
           redirectBasedOnRole(session.user.role)
         } else {
-          // Retry once more after a delay
-          await new Promise(resolve => setTimeout(resolve, 500))
-          const retrySession = await getSession()
-          
-          if (retrySession?.user) {
-            redirectBasedOnRole(retrySession.user.role)
-          } else {
-            setError('Login berhasil tapi session tidak ditemukan. Silakan refresh halaman.')
-            setIsLoggingIn(false)
-          }
+          setError('Login berhasil tapi session tidak ditemukan. Silakan refresh halaman.')
         }
       }
     } catch (error) {
       setError('Terjadi kesalahan, silakan coba lagi')
-      setIsLoggingIn(false)
     } finally {
       setIsLoading(false)
     }
