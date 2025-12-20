@@ -15,19 +15,24 @@ export default function SignInPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
   const [checkingSession, setCheckingSession] = useState(true)
+  const [isLoggingIn, setIsLoggingIn] = useState(false)
   const router = useRouter()
 
   // Check session and redirect if authenticated
   useEffect(() => {
+    // Skip session check if user is actively logging in
+    if (isLoggingIn) {
+      return
+    }
+    
     const checkSession = async () => {
-      // Don't trust client-side session, always check with server
       if (status === 'loading') {
         setCheckingSession(true)
         return
       }
       
       try {
-        // Force fresh session check from server
+        // Force fresh session check from server (only on initial load)
         const response = await fetch('/api/auth/session', {
           cache: 'no-store',
           headers: {
@@ -49,7 +54,7 @@ export default function SignInPage() {
     }
     
     checkSession()
-  }, [status])
+  }, [status, isLoggingIn])
 
   const redirectBasedOnRole = (role: string) => {
     switch (role) {
@@ -72,6 +77,7 @@ export default function SignInPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
+    setIsLoggingIn(true)
     setError('')
 
     try {
@@ -95,21 +101,33 @@ export default function SignInPage() {
 
       if (result?.error) {
         setError('Email atau password salah')
+        setIsLoggingIn(false)
       } else {
-        // Wait a bit for session to be established
-        await new Promise(resolve => setTimeout(resolve, 1000))
+        // Wait for session to be established
+        await new Promise(resolve => setTimeout(resolve, 500))
         
         // Get fresh session
         const session = await getSession()
         
         if (session?.user) {
+          // Redirect based on role
           redirectBasedOnRole(session.user.role)
         } else {
-          setError('Login berhasil tapi session tidak ditemukan')
+          // Retry once more after a delay
+          await new Promise(resolve => setTimeout(resolve, 500))
+          const retrySession = await getSession()
+          
+          if (retrySession?.user) {
+            redirectBasedOnRole(retrySession.user.role)
+          } else {
+            setError('Login berhasil tapi session tidak ditemukan. Silakan refresh halaman.')
+            setIsLoggingIn(false)
+          }
         }
       }
     } catch (error) {
       setError('Terjadi kesalahan, silakan coba lagi')
+      setIsLoggingIn(false)
     } finally {
       setIsLoading(false)
     }
