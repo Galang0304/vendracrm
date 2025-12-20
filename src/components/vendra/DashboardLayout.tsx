@@ -68,31 +68,57 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
 
   const handleSignOut = async () => {
     try {
-      // Call logout API first to clear server-side session
-      await fetch('/api/auth/logout', { method: 'POST' })
+      // Clear localStorage and sessionStorage
+      localStorage.clear()
+      sessionStorage.clear()
       
-      // Clear all NextAuth cookies manually
-      document.cookie.split(";").forEach((c) => {
-        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
-      });
+      // Delete all cookies explicitly
+      const deleteCookie = (name: string) => {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${window.location.hostname};`
+      }
       
-      // Sign out with NextAuth (don't redirect)
-      await signOut({ 
-        redirect: false 
+      // Delete NextAuth cookies
+      deleteCookie('next-auth.session-token')
+      deleteCookie('__Secure-next-auth.session-token')
+      deleteCookie('next-auth.csrf-token')
+      deleteCookie('__Host-next-auth.csrf-token')
+      deleteCookie('next-auth.callback-url')
+      deleteCookie('__Secure-next-auth.callback-url')
+      
+      // Call logout API
+      await fetch('/api/auth/logout', { 
+        method: 'POST',
+        credentials: 'include'
       })
       
-      // Wait a bit to ensure session is cleared
-      await new Promise(resolve => setTimeout(resolve, 100))
+      // SignOut from NextAuth
+      await signOut({ 
+        redirect: false,
+        callbackUrl: '/auth/signin'
+      })
       
-      // Force redirect to signin page
-      window.location.href = '/auth/signin'
+      // Force clear all cookies again
+      document.cookie.split(";").forEach((c) => {
+        const name = c.split("=")[0].trim()
+        deleteCookie(name)
+      })
+      
+      // Wait to ensure everything is cleared
+      await new Promise(resolve => setTimeout(resolve, 200))
+      
+      // Force hard redirect (bypass cache)
+      window.location.replace('/auth/signin')
+      
     } catch (error) {
       console.error('Logout error:', error)
-      // Fallback: clear cookies and redirect
+      // Emergency fallback
+      localStorage.clear()
+      sessionStorage.clear()
       document.cookie.split(";").forEach((c) => {
-        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
-      });
-      window.location.href = '/auth/signin'
+        document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date(0).toUTCString() + ";path=/");
+      })
+      window.location.replace('/auth/signin')
     }
   }
 

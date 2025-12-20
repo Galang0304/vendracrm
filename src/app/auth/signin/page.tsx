@@ -20,31 +20,36 @@ export default function SignInPage() {
   // Check session and redirect if authenticated
   useEffect(() => {
     const checkSession = async () => {
+      // Don't trust client-side session, always check with server
       if (status === 'loading') {
+        setCheckingSession(true)
         return
       }
       
-      if (status === 'authenticated' && session?.user) {
-        // Double-check session is valid by calling API
-        try {
-          const response = await fetch('/api/auth/session')
-          const sessionData = await response.json()
-          
-          if (sessionData?.user) {
-            redirectBasedOnRole(sessionData.user.role)
-          } else {
-            setCheckingSession(false)
+      try {
+        // Force fresh session check from server
+        const response = await fetch('/api/auth/session', {
+          cache: 'no-store',
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
           }
-        } catch {
+        })
+        const sessionData = await response.json()
+        
+        if (sessionData?.user && status === 'authenticated') {
+          redirectBasedOnRole(sessionData.user.role)
+        } else {
           setCheckingSession(false)
         }
-      } else {
+      } catch (error) {
+        console.error('Session check error:', error)
         setCheckingSession(false)
       }
     }
     
     checkSession()
-  }, [session, status])
+  }, [status])
 
   const redirectBasedOnRole = (role: string) => {
     switch (role) {
@@ -110,8 +115,8 @@ export default function SignInPage() {
     }
   }
 
-  // Show loading if checking session
-  if (status === 'loading') {
+  // Show loading if checking session or authenticating
+  if (status === 'loading' || checkingSession) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50 flex items-center justify-center p-4">
         <div className="text-center">
