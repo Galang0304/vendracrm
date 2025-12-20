@@ -25,12 +25,13 @@ export const getBaseUrl = () => {
 
 export const getAuthConfig = () => {
   const baseUrl = getBaseUrl()
+  const isHttps = baseUrl.startsWith('https://')
   
   return {
     baseUrl,
     secret: process.env.NEXTAUTH_SECRET || 'fallback-secret-key',
     debug: process.env.NODE_ENV === 'development',
-    secureCookies: process.env.NODE_ENV === 'production'
+    secureCookies: isHttps // Only secure if using HTTPS
   }
 }
 
