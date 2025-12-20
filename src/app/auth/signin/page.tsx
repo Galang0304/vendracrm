@@ -59,29 +59,35 @@ export default function SignInPage() {
     setError('')
 
     try {
-      // Try user login with redirect
-      const result = await signIn('credentials', {
+      // Try user login first
+      let result = await signIn('credentials', {
         email,
         password,
         userType: 'user',
-        callbackUrl: '/admin',
-        redirect: true,
+        redirect: false,
       })
 
-      // This won't be reached if redirect succeeds
+      // If user login fails, try employee login
       if (result?.error) {
-        // Try employee login
-        const employeeResult = await signIn('credentials', {
+        result = await signIn('credentials', {
           email,
           password,
           userType: 'employee',
-          callbackUrl: '/admin',
-          redirect: true,
+          redirect: false,
         })
-        
-        if (employeeResult?.error) {
-          setError('Email atau password salah')
-          setIsLoading(false)
+      }
+
+      if (result?.error) {
+        setError('Email atau password salah')
+        setIsLoading(false)
+      } else if (result?.ok) {
+        // Get session to determine role
+        const session = await getSession()
+        if (session?.user) {
+          redirectBasedOnRole(session.user.role)
+        } else {
+          // Fallback: just reload the page, NextAuth will redirect based on session
+          window.location.reload()
         }
       }
     } catch (error) {
