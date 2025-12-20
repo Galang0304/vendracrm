@@ -6,8 +6,9 @@ import { prisma } from '@/lib/prisma'
 // GET - Fetch single store
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -34,7 +35,7 @@ export async function GET(
     // Fetch store
     const store = await prisma.store.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -60,8 +61,9 @@ export async function GET(
 // PUT - Update store
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -98,7 +100,7 @@ export async function PUT(
     // Check if store exists and belongs to company
     const existingStore = await prisma.store.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -116,7 +118,7 @@ export async function PUT(
         where: {
           companyId: user.company.id,
           code: code,
-          id: { not: params.id }
+          id: { not: id }
         }
       })
 
@@ -130,7 +132,7 @@ export async function PUT(
 
     // Update store
     const store = await prisma.store.update({
-      where: { id: params.id },
+      where: { id },
       data: {
         name,
         code,
@@ -155,8 +157,9 @@ export async function PUT(
 // DELETE - Delete store
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -183,7 +186,7 @@ export async function DELETE(
     // Check if store exists and belongs to company
     const store = await prisma.store.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -197,7 +200,7 @@ export async function DELETE(
 
     // Delete store
     await prisma.store.delete({
-      where: { id: params.id }
+      where: { id }
     })
 
     return NextResponse.json(

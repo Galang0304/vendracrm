@@ -8,8 +8,9 @@ import bcrypt from 'bcryptjs'
 // GET - Fetch single employee
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -36,7 +37,7 @@ export async function GET(
     // Fetch employee
     const employee = await prisma.employee.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       },
       select: {
@@ -70,8 +71,9 @@ export async function GET(
 // PUT - Update employee
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -101,7 +103,7 @@ export async function PUT(
     // Check if employee exists and belongs to company
     const existingEmployee = await prisma.employee.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -123,7 +125,7 @@ export async function PUT(
         const emailConflict = await prisma.employee.findFirst({
           where: {
             email: email,
-            id: { not: params.id }
+            id: { not: id }
           }
         })
 
@@ -158,7 +160,7 @@ export async function PUT(
 
     // Update employee
     const employee = await prisma.employee.update({
-      where: { id: params.id },
+      where: { id },
       data: updateData,
       select: {
         id: true,
@@ -184,8 +186,9 @@ export async function PUT(
 // DELETE - Delete employee
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -212,7 +215,7 @@ export async function DELETE(
     // Check if employee exists and belongs to company
     const employee = await prisma.employee.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -226,7 +229,7 @@ export async function DELETE(
 
     // Delete employee
     await prisma.employee.delete({
-      where: { id: params.id }
+      where: { id }
     })
 
     return NextResponse.json(

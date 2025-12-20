@@ -1,11 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { signIn } from 'next-auth/react'
 import Link from 'next/link'
 
-export default function VerifyOTP() {
+function VerifyOTPForm() {
   const [otp, setOtp] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -206,5 +206,13 @@ export default function VerifyOTP() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function VerifyOTP() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
+      <VerifyOTPForm />
+    </Suspense>
   )
 }

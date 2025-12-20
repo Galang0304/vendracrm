@@ -7,8 +7,9 @@ import { getUpgradeApprovedEmailTemplate } from '@/lib/email-templates/upgrade-a
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
     
@@ -27,7 +28,7 @@ export async function POST(
       )
     }
 
-    const requestId = params.id
+    const requestId = id
 
     // Find the upgrade request
     const upgradeRequest = await prisma.upgradeRequest.findUnique({

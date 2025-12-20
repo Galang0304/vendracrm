@@ -6,8 +6,9 @@ import { prisma } from '@/lib/prisma'
 // GET - Fetch single product
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -34,7 +35,7 @@ export async function GET(
     // Fetch product
     const product = await prisma.product.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       },
       include: {
@@ -69,8 +70,9 @@ export async function GET(
 // PUT - Update product
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -131,7 +133,7 @@ export async function PUT(
     // Check if product exists and belongs to company
     const existingProduct = await prisma.product.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -149,7 +151,7 @@ export async function PUT(
         where: {
           companyId: user.company.id,
           sku: sku,
-          id: { not: params.id }
+          id: { not: id }
         }
       })
 
@@ -167,7 +169,7 @@ export async function PUT(
         where: {
           companyId: user.company.id,
           barcode: barcode,
-          id: { not: params.id }
+          id: { not: id }
         }
       })
 
@@ -181,7 +183,7 @@ export async function PUT(
 
     // Update product
     const product = await prisma.product.update({
-      where: { id: params.id },
+      where: { id },
       data: {
         name,
         description: description || null,
@@ -225,8 +227,9 @@ export async function PUT(
 // DELETE - Delete product
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
 
@@ -253,7 +256,7 @@ export async function DELETE(
     // Check if product exists and belongs to company
     const product = await prisma.product.findFirst({
       where: {
-        id: params.id,
+        id,
         companyId: user.company.id
       }
     })
@@ -267,7 +270,7 @@ export async function DELETE(
 
     // Delete product
     await prisma.product.delete({
-      where: { id: params.id }
+      where: { id }
     })
 
     return NextResponse.json(

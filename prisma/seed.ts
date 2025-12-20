@@ -58,13 +58,13 @@ async function main() {
 
   console.log('✅ Demo Company created:', demoCompany.name)
 
-  // 4. Buat Employee Demo (Marketing & Kasir)
-  const marketingEmployee = await prisma.employee.create({
+  // 4. Buat Employee Demo (Admin & Kasir)
+  const adminEmployee = await prisma.employee.create({
     data: {
-      email: 'marketing@demo.com',
-      name: 'Marketing Staff',
+      email: 'admin@demo.com',
+      name: 'Admin Staff',
       password: defaultPassword,
-      role: UserRole.MARKETING,
+      role: UserRole.ADMIN,
       companyId: demoCompany.id,
     },
   })

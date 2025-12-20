@@ -166,7 +166,7 @@ export default function AITrainingPanel() {
             )}
           </button>
         </div>
-      ) : (
+      ) : profile ? (
         <div className="space-y-6">
           {/* Business Overview */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -273,6 +273,10 @@ export default function AITrainingPanel() {
               Last updated: {new Date(profile.lastUpdated).toLocaleString()}
             </p>
           )}
+        </div>
+      ) : (
+        <div className="text-center text-gray-500">
+          <p>No training data available</p>
         </div>
       )}
     </div>

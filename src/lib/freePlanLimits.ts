@@ -82,7 +82,7 @@ export async function enforceFreePlanLimits(
   // Check specific resource limits
   switch (resourceType) {
     case 'store':
-      if (limits.currentUsage.stores >= FREE_PLAN_LIMITS.MAX_STORES) {
+      if (limits.currentUsage && limits.currentUsage.stores >= FREE_PLAN_LIMITS.MAX_STORES) {
         return {
           allowed: false,
           message: `Paket FREE hanya dapat membuat ${FREE_PLAN_LIMITS.MAX_STORES} toko. Upgrade untuk membuat lebih banyak toko.`
@@ -91,7 +91,7 @@ export async function enforceFreePlanLimits(
       break
     
     case 'cashier':
-      if (limits.currentUsage.cashiers >= FREE_PLAN_LIMITS.MAX_CASHIERS) {
+      if (limits.currentUsage && limits.currentUsage.cashiers >= FREE_PLAN_LIMITS.MAX_CASHIERS) {
         return {
           allowed: false,
           message: `Paket FREE hanya dapat membuat ${FREE_PLAN_LIMITS.MAX_CASHIERS} akun kasir. Upgrade untuk menambah kasir.`
@@ -102,7 +102,7 @@ export async function enforceFreePlanLimits(
     case 'product':
     case 'transaction':
     case 'customer':
-      if (limits.currentUsage.databaseRows >= FREE_PLAN_LIMITS.MAX_DATABASE_ROWS) {
+      if (limits.currentUsage && limits.currentUsage.databaseRows >= FREE_PLAN_LIMITS.MAX_DATABASE_ROWS) {
         return {
           allowed: false,
           message: `Paket FREE dibatasi ${FREE_PLAN_LIMITS.MAX_DATABASE_ROWS} data. Saat ini: ${limits.currentUsage.databaseRows}. Upgrade untuk kapasitas lebih besar.`

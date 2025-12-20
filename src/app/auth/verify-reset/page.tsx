@@ -1,12 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, CheckCircle } from 'lucide-react'
 import { VendraLogoAuth } from '@/components/vendra/VendraLogo'
 
-export default function VerifyResetPage() {
+function VerifyResetForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const [email, setEmail] = useState('')
@@ -167,5 +167,13 @@ export default function VerifyResetPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function VerifyResetPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
+      <VerifyResetForm />
+    </Suspense>
   )
 }

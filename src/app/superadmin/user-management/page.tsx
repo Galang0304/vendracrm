@@ -22,7 +22,7 @@ interface UserData {
 }
 
 export default function UserManagementPage() {
-  const { data: session } = useSession()
+  const { data: session, status } = useSession()
   const [users, setUsers] = useState<UserData[]>([])
   const [loading, setLoading] = useState(true)
   const [searchTerm, setSearchTerm] = useState('')

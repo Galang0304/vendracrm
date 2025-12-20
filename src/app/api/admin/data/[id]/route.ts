@@ -8,15 +8,15 @@ const prisma = new PrismaClient()
 // PUT - Update transaction
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
     if (!session?.user) {
       return NextResponse.json({ message: 'Unauthorized' }, { status: 401 })
     }
 
-    const { id } = params
     const body = await request.json()
 
     // Check if transaction exists and user has permission
@@ -65,15 +65,14 @@ export async function PUT(
 // DELETE - Delete transaction
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
     if (!session?.user) {
       return NextResponse.json({ message: 'Unauthorized' }, { status: 401 })
     }
-
-    const { id } = params
 
     // Check if transaction exists and user has permission
     const existingTransaction = await prisma.transaction.findUnique({
@@ -112,15 +111,14 @@ export async function DELETE(
 // GET - Get single transaction (optional, for future use)
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params
   try {
     const session = await getServerSession(authOptions)
     if (!session?.user) {
       return NextResponse.json({ message: 'Unauthorized' }, { status: 401 })
     }
-
-    const { id } = params
 
     // Get transaction with company info
     const transaction = await prisma.transaction.findUnique({
