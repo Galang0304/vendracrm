@@ -80,11 +80,10 @@ export default function SignInPage() {
       if (result?.error) {
         setError('Email atau password salah')
       } else {
-        // Get session
-        const session = await getSession()
-        
-        if (session?.user) {
-          redirectBasedOnRole(session.user.role)
+        // Login success - redirect with callback
+        if (result?.ok) {
+          // Force reload to establish session
+          window.location.href = '/admin/dashboard'
         } else {
           setError('Login berhasil tapi session tidak ditemukan. Silakan refresh halaman.')
         }
