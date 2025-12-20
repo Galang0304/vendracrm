@@ -90,8 +90,6 @@ export default function SignInPage() {
       setIsLoading(false)
     }
   }
-    }
-  }
 
   // Show loading if checking session or authenticating
   if (status === 'loading' || checkingSession) {
