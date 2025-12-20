@@ -1,0 +1,110 @@
+{
+  "companyId": "cmimu52s4000rvsyortko8ctd",
+  "companyName": "nichoa makassar",
+  "industry": "General Retail",
+  "businessType": "Small Retail Store",
+  "products": {
+    "categories": [
+      "Chocolate Bar",
+      "Energy Bar",
+      "Spread",
+      "Choco Drink",
+      "General"
+    ],
+    "topSellers": [
+      {
+        "name": "Immune Booster - 35 gr",
+        "sales": 53
+      },
+      {
+        "name": "Almond Cranberries - 1 pcs",
+        "sales": 52
+      },
+      {
+        "name": "Cashew Dates - 1 pcs",
+        "sales": 48
+      },
+      {
+        "name": "Lactation - 90 gr",
+        "sales": 27
+      },
+      {
+        "name": "Mind Relaxing - 35 gr",
+        "sales": 20
+      },
+      {
+        "name": "Lactation - 35 gr",
+        "sales": 19
+      },
+      {
+        "name": "Sleeping Well - 35 gr",
+        "sales": 17
+      },
+      {
+        "name": "Immune Booster Chocodrink - 25 gr",
+        "sales": 17
+      },
+      {
+        "name": "Stress Reliever - 35 gr",
+        "sales": 17
+      },
+      {
+        "name": "Pregnancy - 90 gr",
+        "sales": 15
+      }
+    ],
+    "seasonalTrends": [
+      "December sales spike"
+    ]
+  },
+  "customers": {
+    "segments": [
+      "Niche Market",
+      "High Customer Loyalty"
+    ],
+    "behaviors": [],
+    "preferences": []
+  },
+  "operations": {
+    "peakHours": [
+      "11:00"
+    ],
+    "busyDays": [
+      "Thursday"
+    ],
+    "challenges": [],
+    "goals": [
+      "Expand product catalog to 50+ items",
+      "Increase monthly transactions to 100+"
+    ]
+  },
+  "conversationPatterns": {
+    "commonQuestions": [
+      {
+        "question": "hi",
+        "frequency": 1
+      },
+      {
+        "question": "apa saja yang sya jual?",
+        "frequency": 1
+      }
+    ],
+    "userStyle": "casual",
+    "preferredResponseLength": "medium",
+    "topics": []
+  },
+  "insights": {
+    "strengths": [],
+    "opportunities": [
+      "Increase average order value through upselling"
+    ],
+    "recommendations": [
+      "Focus marketing on Chocolate Bar - your best performing category"
+    ],
+    "predictions": [
+      "Sales trend needs attention - consider promotional activities"
+    ]
+  },
+  "lastUpdated": "2025-12-20T03:07:35.889Z",
+  "learningScore": 90.19999999999999
+}

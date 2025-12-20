@@ -484,7 +484,9 @@ Example responses with REAL DATA:
 Always use REAL DATA from both the business context AND analytics data above!`
 
       // Generate AI response with enhanced context using OpenAI
-      const aiProvider = process.env.VENDRA_AI_PROVIDER || 'gemini'
+      const aiProvider = process.env.VENDRA_AI_PROVIDER || 'openai'
+      
+      console.log(`🔧 AI Provider set to: ${aiProvider}`)
       
       if (aiProvider === 'openai') {
         console.log(`🤖 Using OpenAI for admin chatbot`)

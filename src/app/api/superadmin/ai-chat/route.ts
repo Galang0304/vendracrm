@@ -4,6 +4,7 @@ import { authOptions } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 import { UserRole } from '@prisma/client'
 import { generateGeminiResponse, getGeminiSystemPrompt } from '@/lib/geminiAI'
+import { generateOpenAIResponse } from '@/lib/openaiAI'
 import { getCurrentGeminiKey } from '@/lib/geminiKeyRotation'
 
 export async function POST(request: NextRequest) {
@@ -91,18 +92,13 @@ export async function POST(request: NextRequest) {
       }))
     }
 
-    // Generate AI response using Gemini AI
+    // Generate AI response using OpenAI or Gemini
     let response: string
     
     try {
-      const geminiKey = getCurrentGeminiKey()
-      if (!geminiKey) {
-        throw new Error('No Gemini API key available')
-      }
-
       const systemPrompt = getGeminiSystemPrompt('SUPERADMIN', 'Vendra CRM Platform', session.user.name || 'SuperAdmin')
       
-      // Create context-rich prompt for Gemini
+      // Create context-rich prompt
       const contextPrompt = `
 Konteks Sistem Saat Ini:
 - Total Pengguna: ${systemContext.totalUsers}
@@ -124,13 +120,29 @@ ${systemContext.companiesOverview.slice(0, 3).map((c: any) =>
 Pertanyaan User: ${message}
 `
 
-      let rawResponse = await generateGeminiResponse(
-        geminiKey,
-        contextPrompt,
-        systemPrompt,
-        1000,
-        0.7
-      )
+      const aiProvider = process.env.VENDRA_AI_PROVIDER || 'openai'
+      let rawResponse: string
+
+      if (aiProvider === 'openai') {
+        console.log('🤖 Using OpenAI for SuperAdmin chat')
+        rawResponse = await generateOpenAIResponse(
+          `${systemPrompt}\n\n${contextPrompt}`,
+          'SUPERADMIN'
+        )
+      } else {
+        console.log('🤖 Using Gemini for SuperAdmin chat')
+        const geminiKey = getCurrentGeminiKey()
+        if (!geminiKey) {
+          throw new Error('No Gemini API key available')
+        }
+        rawResponse = await generateGeminiResponse(
+          geminiKey,
+          contextPrompt,
+          systemPrompt,
+          1000,
+          0.7
+        )
+      }
       
       // Clean up markdown formatting (remove asterisks and other markdown)
       response = rawResponse

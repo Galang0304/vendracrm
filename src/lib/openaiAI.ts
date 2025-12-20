@@ -14,12 +14,12 @@ export async function generateOpenAIResponse(
     const systemPrompt = getOpenAISystemPrompt(role)
     
     const completion = await openai.chat.completions.create({
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4o',
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: prompt }
       ],
-      max_tokens: 1000,
+      max_tokens: 2000,
       temperature: 0.7,
     })
 
