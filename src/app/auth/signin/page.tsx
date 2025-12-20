@@ -79,16 +79,23 @@ export default function SignInPage() {
 
       if (result?.error) {
         setError('Email atau password salah')
-      } else {
-        // Login success - redirect with callback
-        if (result?.ok) {
-          // Force reload to establish session
-          window.location.href = '/admin/dashboard'
+      } else if (result?.ok) {
+        // Wait a bit for session to be created
+        await new Promise(resolve => setTimeout(resolve, 500))
+        
+        // Get session after delay
+        const session = await getSession()
+        
+        if (session?.user) {
+          // Redirect based on role
+          redirectBasedOnRole(session.user.role)
         } else {
-          setError('Login berhasil tapi session tidak ditemukan. Silakan refresh halaman.')
+          // If still no session, force reload to dashboard
+          window.location.href = '/admin/dashboard'
         }
       }
     } catch (error) {
+      console.error('Login error:', error)
       setError('Terjadi kesalahan, silakan coba lagi')
     } finally {
       setIsLoading(false)
