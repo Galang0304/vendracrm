@@ -59,35 +59,37 @@ export default function SignInPage() {
     setError('')
 
     try {
-      // Try user login first
-      let result = await signIn('credentials', {
+      // Try user login with redirect
+      const result = await signIn('credentials', {
         email,
         password,
         userType: 'user',
-        redirect: false,
+        callbackUrl: '/admin',
+        redirect: true,
       })
 
-      // If user login fails, try employee login
+      // This won't be reached if redirect succeeds
       if (result?.error) {
-        result = await signIn('credentials', {
+        // Try employee login
+        const employeeResult = await signIn('credentials', {
           email,
           password,
           userType: 'employee',
-          redirect: false,
+          callbackUrl: '/admin',
+          redirect: true,
         })
-      }
-
-      if (result?.error) {
-        setError('Email atau password salah')
-      } else if (result?.ok) {
-        // Login successful - redirect to admin (session will be checked by middleware)
-        window.location.href = '/admin'
+        
+        if (employeeResult?.error) {
+          setError('Email atau password salah')
+          setIsLoading(false)
+        }
       }
     } catch (error) {
       console.error('Login error:', error)
       setError('Terjadi kesalahan, silakan coba lagi')
-    } finally {
       setIsLoading(false)
+    }
+  }
     }
   }
 
