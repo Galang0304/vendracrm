@@ -68,10 +68,17 @@ export default function DashboardLayout({ children, title }: DashboardLayoutProp
 
   const handleSignOut = async () => {
     try {
+      // Call logout API first
+      await fetch('/api/auth/logout', { method: 'POST' })
+      
+      // Then sign out with NextAuth
       await signOut({ 
         callbackUrl: '/',
-        redirect: true 
+        redirect: false 
       })
+      
+      // Force redirect to home
+      window.location.href = '/'
     } catch (error) {
       console.error('Logout error:', error)
       // Fallback: force redirect to homepage
