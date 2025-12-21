@@ -1,0 +1,301 @@
+order no,order time,customer name,customer phone,customer email,brand,item group,item name,item sku,qty,currency,price,add-on price,discount percent,discount amount,amount,tax amount,cost perunit,total cost,profit,paid to brand,payment type
+TRX002,2025-02-15 10:30:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,3,IDR,46000,0,0,0,138000,0,35210,105630,32370,138000,CASH
+TRX002,2025-02-15 14:20:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,10,IDR,10000,0,0,0,100000,0,4558,45580,54420,100000,CASH
+TRX003,2025-02-16 09:15:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,BCA
+TRX004,2025-02-16 16:45:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,5,IDR,18000,0,0,0,90000,0,9061,45305,44695,90000,CASH
+TRX005,2025-02-17 11:00:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,QRIS
+TRX006,2025-02-18 13:30:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,15,IDR,10000,0,0,0,150000,0,4595,68925,81075,150000,CASH
+TRX007,2025-02-19 10:20:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,BCA
+TRX008,2025-02-20 15:10:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,8,IDR,28000,0,0,0,224000,0,23121,184968,39032,224000,CASH
+TRX009,2025-02-21 09:45:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,3,IDR,46000,0,0,0,138000,0,35414,106242,31758,138000,QRIS
+TRX020,2025-02-22 14:00:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,12,IDR,18000,0,0,0,216000,0,7936,95232,120768,216000,CASH
+TRX021,2025-02-15 11:00:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX022,2025-02-16 10:30:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,5,IDR,10000,0,0,0,50000,0,4558,22790,27210,50000,QRIS
+TRX023,2025-02-18 15:20:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,3,IDR,28000,0,0,0,84000,0,20538,61614,22386,84000,CASH
+TRX024,2025-02-20 09:00:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,4,IDR,18000,0,0,0,72000,0,9500,38000,34000,72000,BCA
+TRX025,2025-02-22 16:15:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,2,IDR,28000,0,0,0,56000,0,21917,43834,12166,56000,CASH
+TRX026,2025-02-15 12:00:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,8,IDR,10000,0,0,0,80000,0,4595,36760,43240,80000,CASH
+TRX027,2025-02-17 14:30:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,2,IDR,28000,0,0,0,56000,0,21953,43906,12094,56000,QRIS
+TRX028,2025-02-19 11:45:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX029,2025-02-21 16:00:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,4,IDR,28000,0,0,0,112000,0,20902,83608,28392,112000,BCA
+TRX020,2025-02-15 13:15:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX021,2025-02-18 10:00:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,6,IDR,10000,0,0,0,60000,0,4558,27348,32652,60000,QRIS
+TRX022,2025-02-20 15:30:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,CASH
+TRX023,2025-02-15 14:45:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,3,IDR,28000,0,0,0,84000,0,22202,66603,17397,84000,CASH
+TRX024,2025-02-17 09:30:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,4,IDR,10000,0,0,0,40000,0,4595,18380,21620,40000,BCA
+TRX025,2025-02-19 16:20:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,2,IDR,28000,0,0,0,56000,0,19983,39966,16034,56000,CASH
+TRX026,2025-02-20 11:15:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX027,2025-02-16 10:30:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,CASH
+TRX028,2025-02-18 13:45:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,7,IDR,10000,0,0,0,70000,0,4558,31906,38094,70000,BCA
+TRX029,2025-02-21 15:00:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,1,IDR,46000,0,0,0,46000,0,35210,35210,10790,46000,CASH
+TRX030,2025-02-16 11:20:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,6,IDR,18000,0,0,0,108000,0,7936,47616,60384,108000,QRIS
+TRX031,2025-02-19 14:30:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,3,IDR,46000,0,0,0,138000,0,35451,106353,31647,138000,CASH
+TRX032,2025-02-22 10:45:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,10,IDR,10000,0,0,0,100000,0,4595,45950,54050,100000,BCA
+TRX033,2025-02-17 12:00:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,CASH
+TRX034,2025-02-20 16:15:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,QRIS
+TRX035,2025-02-15 15:30:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,5,IDR,28000,0,0,0,140000,0,23121,115605,24395,140000,CASH
+TRX036,2025-02-18 11:45:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,8,IDR,10000,0,0,0,80000,0,4558,36464,43536,80000,BCA
+TRX037,2025-02-21 14:00:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,CASH
+TRX038,2025-02-16 13:15:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,8,IDR,18000,0,0,0,144000,0,9500,76000,68000,144000,QRIS
+TRX039,2025-02-19 10:30:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX040,2025-02-22 15:45:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,12,IDR,10000,0,0,0,120000,0,4595,55140,64860,120000,BCA
+TRX041,2025-02-17 11:00:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,4,IDR,28000,0,0,0,112000,0,20538,82152,29848,112000,CASH
+TRX042,2025-02-20 14:15:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX043,2025-02-15 16:30:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,3,IDR,28000,0,0,0,84000,0,21917,65751,18249,84000,CASH
+TRX044,2025-02-18 12:45:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,9,IDR,10000,0,0,0,90000,0,4558,41022,48978,90000,BCA
+TRX045,2025-02-21 10:00:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,7,IDR,18000,0,0,0,126000,0,9061,63427,62573,126000,CASH
+TRX046,2025-02-16 14:15:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,2,IDR,28000,0,0,0,56000,0,21953,43906,12094,56000,QRIS
+TRX047,2025-02-19 16:30:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,5,IDR,28000,0,0,0,140000,0,20902,104510,35490,140000,CASH
+TRX048,2025-02-22 11:45:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,6,IDR,10000,0,0,0,60000,0,4595,27570,32430,60000,BCA
+TRX049,2025-02-17 13:00:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX050,2025-02-20 15:15:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,QRIS
+TRX051,2025-02-15 17:30:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,4,IDR,28000,0,0,0,112000,0,22202,88804,23196,112000,CASH
+TRX052,2025-02-18 13:45:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,11,IDR,10000,0,0,0,110000,0,4558,50138,59862,110000,BCA
+TRX053,2025-02-21 11:00:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,9,IDR,18000,0,0,0,162000,0,7936,71424,90576,162000,CASH
+TRX054,2025-02-16 15:15:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,3,IDR,28000,0,0,0,84000,0,19983,59949,24051,84000,QRIS
+TRX055,2025-02-19 17:30:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,1,IDR,46000,0,0,0,46000,0,34192,34192,11808,46000,CASH
+TRX056,2025-02-22 12:45:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,7,IDR,10000,0,0,0,70000,0,4595,32165,37835,70000,BCA
+TRX057,2025-02-17 14:00:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,2,IDR,46000,0,0,0,92000,0,35210,70420,21580,92000,CASH
+TRX058,2025-02-20 16:15:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,5,IDR,18000,0,0,0,90000,0,9500,47500,42500,90000,QRIS
+TRX059,2025-02-15 18:30:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,1,IDR,46000,0,0,0,46000,0,35451,35451,10549,46000,CASH
+TRX060,2025-02-18 14:45:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,13,IDR,10000,0,0,0,130000,0,4558,59254,70746,130000,BCA
+TRX061,2025-02-21 12:00:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,CASH
+TRX062,2025-02-16 16:30:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,3,IDR,46000,0,0,0,138000,0,33764,101292,36708,138000,QRIS
+TRX063,2025-02-19 18:45:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,6,IDR,28000,0,0,0,168000,0,23121,138726,29274,168000,CASH
+TRX064,2025-02-22 13:00:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,5,IDR,10000,0,0,0,50000,0,4595,22975,27025,50000,BCA
+TRX065,2025-02-17 15:15:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,CASH
+TRX066,2025-02-20 17:30:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,QRIS
+TRX067,2025-02-15 19:45:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX068,2025-02-18 15:00:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,14,IDR,10000,0,0,0,140000,0,4558,63812,76188,140000,BCA
+TRX069,2025-02-21 13:15:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,2,IDR,28000,0,0,0,56000,0,20538,41076,14924,56000,CASH
+TRX070,2025-02-16 17:30:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,QRIS
+TRX071,2025-02-19 19:45:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,4,IDR,28000,0,0,0,112000,0,21917,87668,24332,112000,CASH
+TRX072,2025-02-22 14:00:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,8,IDR,10000,0,0,0,80000,0,4595,36760,43240,80000,BCA
+TRX073,2025-02-17 16:15:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,CASH
+TRX074,2025-02-20 18:30:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,10,IDR,18000,0,0,0,180000,0,7936,79360,100640,180000,QRIS
+TRX075,2025-02-15 20:45:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,6,IDR,28000,0,0,0,168000,0,20902,125412,42588,168000,CASH
+TRX076,2025-02-18 16:00:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,4,IDR,10000,0,0,0,40000,0,4558,18232,21768,40000,BCA
+TRX077,2025-02-21 14:15:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX078,2025-02-16 18:30:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,QRIS
+TRX079,2025-02-19 20:45:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,5,IDR,28000,0,0,0,140000,0,22202,111005,28995,140000,CASH
+TRX080,2025-02-22 15:00:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,9,IDR,10000,0,0,0,90000,0,4595,41355,48645,90000,BCA
+TRX081,2025-02-17 17:15:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,2,IDR,28000,0,0,0,56000,0,19983,39966,16034,56000,CASH
+TRX082,2025-02-20 19:30:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,6,IDR,18000,0,0,0,108000,0,9500,57000,51000,108000,QRIS
+TRX083,2025-02-15 21:45:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,CASH
+TRX084,2025-02-18 17:00:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,15,IDR,10000,0,0,0,150000,0,4558,68370,81630,150000,BCA
+TRX085,2025-02-21 15:15:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,1,IDR,46000,0,0,0,46000,0,35210,35210,10790,46000,CASH
+TRX086,2025-02-16 19:30:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,8,IDR,18000,0,0,0,144000,0,9061,72488,71512,144000,QRIS
+TRX087,2025-02-19 21:45:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,3,IDR,46000,0,0,0,138000,0,35451,106353,31647,138000,CASH
+TRX088,2025-02-22 16:00:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,11,IDR,10000,0,0,0,110000,0,4595,50545,59455,110000,BCA
+TRX089,2025-02-17 18:15:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,CASH
+TRX090,2025-02-20 20:30:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,QRIS
+TRX091,2025-02-15 22:45:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,7,IDR,28000,0,0,0,196000,0,23121,161847,34153,196000,CASH
+TRX092,2025-02-18 18:00:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,3,IDR,10000,0,0,0,30000,0,4558,13674,16326,30000,BCA
+TRX093,2025-02-21 16:15:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,CASH
+TRX094,2025-02-16 20:30:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,11,IDR,18000,0,0,0,198000,0,7936,87296,110704,198000,QRIS
+TRX095,2025-02-19 22:45:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX096,2025-02-22 17:00:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,6,IDR,10000,0,0,0,60000,0,4595,27570,32430,60000,BCA
+TRX097,2025-02-17 19:15:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,3,IDR,28000,0,0,0,84000,0,20538,61614,22386,84000,CASH
+TRX098,2025-02-20 21:30:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX099,2025-02-18 19:00:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,5,IDR,28000,0,0,0,140000,0,21917,109585,30415,140000,CASH
+TRX100,2025-02-21 17:15:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,12,IDR,10000,0,0,0,120000,0,4558,54696,65304,120000,BCA
+TRX101,2025-03-01 09:00:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,CASH
+TRX102,2025-03-01 10:30:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,7,IDR,18000,0,0,0,126000,0,9500,66500,59500,126000,QRIS
+TRX103,2025-03-01 11:45:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,4,IDR,28000,0,0,0,112000,0,20902,83608,28392,112000,CASH
+TRX104,2025-03-01 13:00:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,10,IDR,10000,0,0,0,100000,0,4595,45950,54050,100000,BCA
+TRX105,2025-03-01 14:15:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX106,2025-03-01 15:30:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,QRIS
+TRX107,2025-03-01 16:45:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,6,IDR,28000,0,0,0,168000,0,22202,133206,34794,168000,CASH
+TRX108,2025-03-01 18:00:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,8,IDR,10000,0,0,0,80000,0,4558,36464,43536,80000,BCA
+TRX109,2025-03-01 19:15:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,2,IDR,28000,0,0,0,56000,0,19983,39966,16034,56000,CASH
+TRX110,2025-03-01 20:30:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,9,IDR,18000,0,0,0,162000,0,9061,81549,80451,162000,QRIS
+TRX111,2025-03-02 09:15:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,CASH
+TRX112,2025-03-02 10:30:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,13,IDR,10000,0,0,0,130000,0,4595,59735,70265,130000,BCA
+TRX113,2025-03-02 11:45:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,3,IDR,46000,0,0,0,138000,0,35210,105630,32370,138000,CASH
+TRX114,2025-03-02 13:00:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX115,2025-03-02 14:15:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,CASH
+TRX116,2025-03-02 15:30:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,12,IDR,18000,0,0,0,216000,0,7936,95232,120768,216000,BCA
+TRX117,2025-03-02 16:45:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,1,IDR,46000,0,0,0,46000,0,33764,33764,12236,46000,CASH
+TRX118,2025-03-02 18:00:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,7,IDR,10000,0,0,0,70000,0,4558,31906,38094,70000,QRIS
+TRX119,2025-03-02 19:15:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,8,IDR,28000,0,0,0,224000,0,23121,184968,39032,224000,CASH
+TRX120,2025-03-02 20:30:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,BCA
+TRX121,2025-03-03 09:30:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,5,IDR,10000,0,0,0,50000,0,4595,22975,27025,50000,CASH
+TRX122,2025-03-03 10:45:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,4,IDR,18000,0,0,0,72000,0,9500,38000,34000,72000,QRIS
+TRX123,2025-03-03 12:00:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX124,2025-03-03 13:15:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,BCA
+TRX125,2025-03-03 14:30:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,5,IDR,28000,0,0,0,140000,0,20538,102690,37310,140000,CASH
+TRX126,2025-03-03 15:45:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,9,IDR,10000,0,0,0,90000,0,4558,41022,48978,90000,QRIS
+TRX127,2025-03-03 17:00:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,4,IDR,28000,0,0,0,112000,0,21917,87668,24332,112000,CASH
+TRX128,2025-03-03 18:15:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,BCA
+TRX129,2025-03-03 19:30:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,CASH
+TRX130,2025-03-03 20:45:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,11,IDR,10000,0,0,0,110000,0,4595,50545,59455,110000,QRIS
+TRX131,2025-03-04 09:00:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,7,IDR,28000,0,0,0,196000,0,20902,146314,49686,196000,CASH
+TRX132,2025-03-04 10:15:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,BCA
+TRX133,2025-03-04 11:30:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,CASH
+TRX134,2025-03-04 12:45:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,6,IDR,28000,0,0,0,168000,0,22202,133206,34794,168000,QRIS
+TRX135,2025-03-04 14:00:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,14,IDR,10000,0,0,0,140000,0,4558,63812,76188,140000,CASH
+TRX136,2025-03-04 15:15:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,10,IDR,18000,0,0,0,180000,0,7936,79360,100640,180000,BCA
+TRX137,2025-03-04 16:30:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,3,IDR,28000,0,0,0,84000,0,19983,59949,24051,84000,CASH
+TRX138,2025-03-04 17:45:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,QRIS
+TRX139,2025-03-04 19:00:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,6,IDR,10000,0,0,0,60000,0,4595,27570,32430,60000,CASH
+TRX140,2025-03-04 20:15:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,2,IDR,46000,0,0,0,92000,0,35210,70420,21580,92000,BCA
+TRX141,2025-03-05 09:15:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,5,IDR,18000,0,0,0,90000,0,9500,47500,42500,90000,CASH
+TRX142,2025-03-05 10:30:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,3,IDR,46000,0,0,0,138000,0,35451,106353,31647,138000,QRIS
+TRX143,2025-03-05 11:45:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX144,2025-03-05 13:00:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,BCA
+TRX145,2025-03-05 14:15:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,15,IDR,10000,0,0,0,150000,0,4558,68370,81630,150000,CASH
+TRX146,2025-03-05 15:30:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,9,IDR,28000,0,0,0,252000,0,23121,208089,43911,252000,QRIS
+TRX147,2025-03-05 16:45:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,8,IDR,18000,0,0,0,144000,0,9061,72488,71512,144000,CASH
+TRX148,2025-03-05 18:00:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,1,IDR,46000,0,0,0,46000,0,35414,35414,10586,46000,BCA
+TRX149,2025-03-05 19:15:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,7,IDR,10000,0,0,0,70000,0,4595,32165,37835,70000,CASH
+TRX150,2025-03-05 20:30:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,QRIS
+TRX151,2025-03-06 09:30:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,CASH
+TRX152,2025-03-06 10:45:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,4,IDR,28000,0,0,0,112000,0,20538,82152,29848,112000,BCA
+TRX153,2025-03-06 12:00:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,12,IDR,10000,0,0,0,120000,0,4558,54696,65304,120000,CASH
+TRX154,2025-03-06 13:15:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,11,IDR,18000,0,0,0,198000,0,7936,87296,110704,198000,QRIS
+TRX155,2025-03-06 14:30:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,5,IDR,28000,0,0,0,140000,0,21917,109585,30415,140000,CASH
+TRX156,2025-03-06 15:45:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,2,IDR,28000,0,0,0,56000,0,21953,43906,12094,56000,BCA
+TRX157,2025-03-06 17:00:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,8,IDR,10000,0,0,0,80000,0,4595,36760,43240,80000,CASH
+TRX158,2025-03-06 18:15:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,6,IDR,28000,0,0,0,168000,0,20902,125412,42588,168000,QRIS
+TRX159,2025-03-06 19:30:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,3,IDR,18000,0,0,0,54000,0,9500,28500,25500,54000,CASH
+TRX160,2025-03-06 20:45:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,BCA
+TRX161,2025-03-07 09:00:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,CASH
+TRX162,2025-03-07 10:15:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,7,IDR,28000,0,0,0,196000,0,22202,155407,40593,196000,QRIS
+TRX163,2025-03-07 11:30:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,10,IDR,10000,0,0,0,100000,0,4558,45580,54420,100000,CASH
+TRX164,2025-03-07 12:45:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,3,IDR,28000,0,0,0,84000,0,19983,59949,24051,84000,BCA
+TRX165,2025-03-07 14:00:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,CASH
+TRX166,2025-03-07 15:15:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,QRIS
+TRX167,2025-03-07 16:30:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,9,IDR,10000,0,0,0,90000,0,4595,41355,48645,90000,CASH
+TRX168,2025-03-07 17:45:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,3,IDR,46000,0,0,0,138000,0,35210,105630,32370,138000,BCA
+TRX169,2025-03-07 19:00:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,13,IDR,18000,0,0,0,234000,0,7936,103168,130832,234000,CASH
+TRX170,2025-03-07 20:15:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX171,2025-03-08 09:15:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,CASH
+TRX172,2025-03-08 10:30:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,11,IDR,10000,0,0,0,110000,0,4558,50138,59862,110000,BCA
+TRX173,2025-03-08 11:45:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,1,IDR,46000,0,0,0,46000,0,33764,33764,12236,46000,CASH
+TRX174,2025-03-08 13:00:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,8,IDR,28000,0,0,0,224000,0,23121,184968,39032,224000,QRIS
+TRX175,2025-03-08 14:15:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,6,IDR,18000,0,0,0,108000,0,9500,57000,51000,108000,CASH
+TRX176,2025-03-08 15:30:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,BCA
+TRX177,2025-03-08 16:45:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,5,IDR,10000,0,0,0,50000,0,4595,22975,27025,50000,CASH
+TRX178,2025-03-08 18:00:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,QRIS
+TRX179,2025-03-08 19:15:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX180,2025-03-08 20:30:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,4,IDR,28000,0,0,0,112000,0,20538,82152,29848,112000,BCA
+TRX181,2025-03-09 09:30:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,14,IDR,10000,0,0,0,140000,0,4558,63812,76188,140000,CASH
+TRX182,2025-03-09 10:45:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,7,IDR,18000,0,0,0,126000,0,9061,63427,62573,126000,QRIS
+TRX183,2025-03-09 12:00:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,6,IDR,28000,0,0,0,168000,0,21917,131502,36498,168000,CASH
+TRX184,2025-03-09 13:15:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,BCA
+TRX185,2025-03-09 14:30:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,12,IDR,10000,0,0,0,120000,0,4595,55140,64860,120000,CASH
+TRX186,2025-03-09 15:45:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,5,IDR,28000,0,0,0,140000,0,20902,104510,35490,140000,QRIS
+TRX187,2025-03-09 17:00:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,10,IDR,18000,0,0,0,180000,0,7936,79360,100640,180000,CASH
+TRX188,2025-03-09 18:15:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,BCA
+TRX189,2025-03-09 19:30:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX190,2025-03-09 20:45:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,8,IDR,28000,0,0,0,224000,0,22202,177608,46392,224000,BCA
+TRX191,2025-04-01 09:00:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,4,IDR,46000,0,0,0,184000,0,35210,140840,43160,184000,CASH
+TRX192,2025-04-01 10:30:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,10,IDR,10000,0,0,0,100000,0,4558,45580,54420,100000,QRIS
+TRX193,2025-04-01 11:45:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,6,IDR,18000,0,0,0,108000,0,9061,54366,53634,108000,CASH
+TRX194,2025-04-01 13:00:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,BCA
+TRX195,2025-04-01 14:15:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX196,2025-04-01 15:30:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,QRIS
+TRX197,2025-04-01 16:45:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,8,IDR,10000,0,0,0,80000,0,4595,36760,43240,80000,CASH
+TRX198,2025-04-01 18:00:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,5,IDR,28000,0,0,0,140000,0,23121,115605,24395,140000,BCA
+TRX199,2025-04-01 19:15:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,7,IDR,18000,0,0,0,126000,0,7936,55552,70448,126000,CASH
+TRX200,2025-04-01 20:30:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,QRIS
+TRX201,2025-04-02 09:15:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,CASH
+TRX202,2025-04-02 10:30:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,3,IDR,46000,0,0,0,138000,0,35414,106242,31758,138000,BCA
+TRX203,2025-04-02 11:45:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,12,IDR,10000,0,0,0,120000,0,4558,54696,65304,120000,CASH
+TRX204,2025-04-02 13:00:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,4,IDR,28000,0,0,0,112000,0,19983,79932,32068,112000,QRIS
+TRX205,2025-04-02 14:15:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,5,IDR,18000,0,0,0,90000,0,9500,47500,42500,90000,CASH
+TRX206,2025-04-02 15:30:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,6,IDR,28000,0,0,0,168000,0,21917,131502,36498,168000,BCA
+TRX207,2025-04-02 16:45:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,9,IDR,10000,0,0,0,90000,0,4595,41355,48645,90000,CASH
+TRX208,2025-04-02 18:00:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,7,IDR,28000,0,0,0,196000,0,20902,146314,49686,196000,QRIS
+TRX209,2025-04-02 19:15:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,CASH
+TRX210,2025-04-02 20:30:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,BCA
+TRX211,2025-04-03 09:30:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,CASH
+TRX212,2025-04-03 10:45:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,QRIS
+TRX213,2025-04-03 12:00:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,15,IDR,10000,0,0,0,150000,0,4558,68370,81630,150000,CASH
+TRX214,2025-04-03 13:15:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,5,IDR,28000,0,0,0,140000,0,20538,102690,37310,140000,BCA
+TRX215,2025-04-03 14:30:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,8,IDR,28000,0,0,0,224000,0,22202,177608,46392,224000,CASH
+TRX216,2025-04-03 15:45:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX217,2025-04-03 17:00:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,2,IDR,46000,0,0,0,92000,0,34783,69566,22434,92000,CASH
+TRX218,2025-04-03 18:15:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,11,IDR,10000,0,0,0,110000,0,4595,50545,59455,110000,BCA
+TRX219,2025-04-03 19:30:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,9,IDR,18000,0,0,0,162000,0,7936,71424,90576,162000,CASH
+TRX220,2025-04-03 20:45:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,3,IDR,46000,0,0,0,138000,0,35210,105630,32370,138000,QRIS
+TRX221,2025-04-04 09:00:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,CASH
+TRX222,2025-04-04 10:15:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,6,IDR,10000,0,0,0,60000,0,4558,27348,32652,60000,BCA
+TRX223,2025-04-04 11:30:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,4,IDR,28000,0,0,0,112000,0,21953,87812,24188,112000,CASH
+TRX224,2025-04-04 12:45:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,8,IDR,18000,0,0,0,144000,0,9500,76000,68000,144000,QRIS
+TRX225,2025-04-04 14:00:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX226,2025-04-04 15:15:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,6,IDR,28000,0,0,0,168000,0,23121,138726,29274,168000,BCA
+TRX227,2025-04-04 16:30:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,7,IDR,10000,0,0,0,70000,0,4595,32165,37835,70000,CASH
+TRX228,2025-04-04 17:45:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,QRIS
+TRX229,2025-04-04 19:00:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,10,IDR,18000,0,0,0,180000,0,9061,90610,89390,180000,CASH
+TRX230,2025-04-04 20:15:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,1,IDR,46000,0,0,0,46000,0,34192,34192,11808,46000,BCA
+TRX231,2025-04-05 09:15:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,CASH
+TRX232,2025-04-05 10:30:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,3,IDR,28000,0,0,0,84000,0,19983,59949,24051,84000,QRIS
+TRX233,2025-04-05 11:45:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,13,IDR,10000,0,0,0,130000,0,4558,59254,70746,130000,CASH
+TRX234,2025-04-05 13:00:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,5,IDR,28000,0,0,0,140000,0,21917,109585,30415,140000,BCA
+TRX235,2025-04-05 14:15:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,8,IDR,18000,0,0,0,144000,0,7936,63488,80512,144000,CASH
+TRX236,2025-04-05 15:30:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,6,IDR,28000,0,0,0,168000,0,20902,125412,42588,168000,QRIS
+TRX237,2025-04-05 16:45:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,10,IDR,10000,0,0,0,100000,0,4595,45950,54050,100000,CASH
+TRX238,2025-04-05 18:00:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,BCA
+TRX239,2025-04-05 19:15:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX240,2025-04-05 20:30:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,QRIS
+TRX241,2025-04-06 09:30:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,CASH
+TRX242,2025-04-06 10:45:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,11,IDR,10000,0,0,0,110000,0,4558,50138,59862,110000,BCA
+TRX243,2025-04-06 12:00:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,7,IDR,28000,0,0,0,196000,0,22202,155407,40593,196000,CASH
+TRX244,2025-04-06 13:15:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,4,IDR,28000,0,0,0,112000,0,20538,82152,29848,112000,QRIS
+TRX245,2025-04-06 14:30:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,9,IDR,10000,0,0,0,90000,0,4595,41355,48645,90000,CASH
+TRX246,2025-04-06 15:45:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,6,IDR,18000,0,0,0,108000,0,9500,57000,51000,108000,BCA
+TRX247,2025-04-06 17:00:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,2,IDR,46000,0,0,0,92000,0,35210,70420,21580,92000,CASH
+TRX248,2025-04-06 18:15:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,QRIS
+TRX249,2025-04-06 19:30:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,CASH
+TRX250,2025-04-06 20:45:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,14,IDR,10000,0,0,0,140000,0,4558,63812,76188,140000,BCA
+TRX251,2025-04-07 09:00:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,CASH
+TRX252,2025-04-07 10:15:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,11,IDR,18000,0,0,0,198000,0,7936,87296,110704,198000,QRIS
+TRX253,2025-04-07 11:30:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,3,IDR,28000,0,0,0,84000,0,21953,65859,18141,84000,CASH
+TRX254,2025-04-07 12:45:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,8,IDR,10000,0,0,0,80000,0,4595,36760,43240,80000,BCA
+TRX255,2025-04-07 14:00:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,CASH
+TRX256,2025-04-07 15:15:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,7,IDR,28000,0,0,0,196000,0,23121,161847,34153,196000,QRIS
+TRX257,2025-04-07 16:30:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,3,IDR,46000,0,0,0,138000,0,34192,102576,35424,138000,CASH
+TRX258,2025-04-07 17:45:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,9,IDR,18000,0,0,0,162000,0,9061,81549,80451,162000,BCA
+TRX259,2025-04-07 19:00:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,12,IDR,10000,0,0,0,120000,0,4558,54696,65304,120000,CASH
+TRX260,2025-04-07 20:15:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,QRIS
+TRX261,2025-04-08 09:15:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,6,IDR,28000,0,0,0,168000,0,21917,131502,36498,168000,CASH
+TRX262,2025-04-08 10:30:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,BCA
+TRX263,2025-04-08 11:45:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,4,IDR,28000,0,0,0,112000,0,19983,79932,32068,112000,CASH
+TRX264,2025-04-08 13:00:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,10,IDR,10000,0,0,0,100000,0,4595,45950,54050,100000,QRIS
+TRX265,2025-04-08 14:15:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,7,IDR,18000,0,0,0,126000,0,9500,66500,59500,126000,CASH
+TRX266,2025-04-08 15:30:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,5,IDR,28000,0,0,0,140000,0,20902,104510,35490,140000,BCA
+TRX267,2025-04-08 16:45:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,2,IDR,46000,0,0,0,92000,0,35451,70902,21098,92000,CASH
+TRX268,2025-04-08 18:00:00,Bambang Irawan,081934567890,bambang.irawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,9,IDR,10000,0,0,0,90000,0,4558,41022,48978,90000,QRIS
+TRX269,2025-04-08 19:15:00,Nurul Hidayah,081945678901,nurul.hidayah@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,CASH
+TRX270,2025-04-08 20:30:00,Eko Prasetyo,081956789012,eko.prasetyo@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,BCA
+TRX271,2025-04-09 09:30:00,Fitri Handayani,081967890123,fitri.handayani@email.com,Nichoa,Choco Drink,Stress Release - 25 gr,,8,IDR,18000,0,0,0,144000,0,9061,72488,71512,144000,CASH
+TRX272,2025-04-09 10:45:00,Doni Setiawan,081978901234,doni.setiawan@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,6,IDR,28000,0,0,0,168000,0,22202,133206,34794,168000,QRIS
+TRX273,2025-04-09 12:00:00,Ani Suryani,081989012345,ani.suryani@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,11,IDR,10000,0,0,0,110000,0,4595,50545,59455,110000,CASH
+TRX274,2025-04-09 13:15:00,Rudi Hartono,081990123456,rudi.hartono@email.com,Nichoa,Chocolate Bar,Workout Buddy - 35 gr,WB-1,3,IDR,28000,0,0,0,84000,0,20538,61614,22386,84000,BCA
+TRX275,2025-04-09 14:30:00,Indah Permata,081901234568,indah.permata@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,10,IDR,18000,0,0,0,180000,0,7936,79360,100640,180000,CASH
+TRX276,2025-04-09 15:45:00,Wawan Kurniawan,081912345679,wawan.kurniawan@email.com,Nichoa,Chocolate Bar,Lactation - 90 gr,Lactation-0,2,IDR,46000,0,0,0,92000,0,35210,70420,21580,92000,QRIS
+TRX277,2025-04-09 17:00:00,Lia Amelia,081923456780,lia.amelia@email.com,Nichoa,Spread,Almond Butter - 225 gr,,2,IDR,80000,0,0,0,160000,0,64742,129484,30516,160000,CASH
+TRX278,2025-04-09 18:15:00,Fajar Nugroho,081934567891,fajar.nugroho@email.com,Nichoa,Chocolate Bar,Stress Reliever - 90 gr,SR-0,1,IDR,46000,0,0,0,46000,0,34783,34783,11217,46000,BCA
+TRX279,2025-04-09 19:30:00,Ratna Sari,081945678902,ratna.sari@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,13,IDR,10000,0,0,0,130000,0,4558,59254,70746,130000,CASH
+TRX280,2025-04-09 20:45:00,Hadi Wijaksono,081956789013,hadi.wijaksono@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 90 gr,MR-0,2,IDR,46000,0,0,0,92000,0,33764,67528,24472,92000,QRIS
+TRX281,2025-04-10 09:00:00,Sinta Dewi,081967890124,sinta.dewi@email.com,Nichoa,Choco Drink,Immune Booster Chocodrink - 25 gr,,5,IDR,18000,0,0,0,90000,0,9500,47500,42500,90000,CASH
+TRX282,2025-04-10 10:15:00,Agus Salim,081978901235,agus.salim@email.com,Nichoa,Chocolate Bar,Pregnancy - 35 gr,Pregnancy-1,4,IDR,28000,0,0,0,112000,0,21953,87812,24188,112000,BCA
+TRX283,2025-04-10 11:30:00,Mega Wulandari,081989012346,mega.wulandari@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,7,IDR,10000,0,0,0,70000,0,4595,32165,37835,70000,CASH
+TRX284,2025-04-10 12:45:00,Tono Sugiarto,081990123457,tono.sugiarto@email.com,Nichoa,Spread,Superfood - 225 gr,,1,IDR,80000,0,0,0,80000,0,44307,44307,35693,80000,QRIS
+TRX285,2025-04-10 14:00:00,Vina Kartika,081901234569,vina.kartika@email.com,Nichoa,Chocolate Bar,Immune Booster - 35 gr,IM-1,8,IDR,28000,0,0,0,224000,0,23121,184968,39032,224000,CASH
+TRX286,2025-04-10 15:15:00,Yoga Pratama,081912345670,yoga.pratama@email.com,Nichoa,Chocolate Bar,Sleeping Well - 90 gr,SW-0,2,IDR,46000,0,0,0,92000,0,35414,70828,21172,92000,BCA
+TRX287,2025-04-10 16:30:00,Zahra Amalia,081923456781,zahra.amalia@email.com,Nichoa,Choco Drink,Stress Release - 150 gr,,1,IDR,75000,0,0,0,75000,0,49791,49791,25209,75000,CASH
+TRX288,2025-04-10 17:45:00,Arif Rahman,081934567892,arif.rahman@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,15,IDR,10000,0,0,0,150000,0,4558,68370,81630,150000,QRIS
+TRX289,2025-04-10 19:00:00,Bella Anastasia,081945678903,bella.anastasia@email.com,Nichoa,Chocolate Bar,Workout Buddy - 90 gr,WB-0,2,IDR,46000,0,0,0,92000,0,34192,68384,23616,92000,CASH
+TRX290,2025-04-10 20:15:00,Siti Rahayu,081234567890,siti.rahayu@email.com,Nichoa,Chocolate Bar,Lactation - 35 gr,Lactation-1,7,IDR,28000,0,0,0,196000,0,21917,153419,42581,196000,BCA
+TRX291,2025-04-11 09:15:00,Budi Santoso,081298765432,budi.santoso@email.com,Nichoa,Spread,Almond Butter - 225 gr,,1,IDR,80000,0,0,0,80000,0,64742,64742,15258,80000,CASH
+TRX292,2025-04-11 10:30:00,Dewi Kusuma,081356789022,dewi.kusuma@email.com,Nichoa,Chocolate Bar,Stress Reliever - 35 gr,SR-1,5,IDR,28000,0,0,0,140000,0,19983,99915,40085,140000,QRIS
+TRX293,2025-04-11 11:45:00,Ahmad Hidayat,081445678902,ahmad.hidayat@email.com,Nichoa,Energy Bar,Cashew Dates - 1 pcs,EBC-0,9,IDR,10000,0,0,0,90000,0,4595,41355,48645,90000,CASH
+TRX294,2025-04-11 13:00:00,Rina Wijaya,081567890223,rina.wijaya@email.com,Nichoa,Choco Drink,Fresh and Fight - 25 gr,Chocodrink SR-0,12,IDR,18000,0,0,0,216000,0,7936,95232,120768,216000,BCA
+TRX295,2025-04-11 14:15:00,Hendra Gunawan,081678901234,hendra.gunawan@email.com,Nichoa,Chocolate Bar,Mind Relaxing - 35 gr,MR-1,6,IDR,28000,0,0,0,168000,0,20902,125412,42588,168000,CASH
+TRX296,2025-04-11 15:30:00,Maya Putri,081789012345,maya.putri@email.com,Nichoa,Chocolate Bar,Pregnancy - 90 gr,Pregnancy-0,3,IDR,46000,0,0,0,138000,0,35451,106353,31647,138000,QRIS
+TRX297,2025-04-11 16:45:00,Joko Prabowo,081890123456,joko.prabowo@email.com,Nichoa,Spread,Superfood - 225 gr,,2,IDR,80000,0,0,0,160000,0,44307,88614,71386,160000,CASH
+TRX298,2025-04-11 18:00:00,Linda Marlina,081901234567,linda.marlina@email.com,Nichoa,Chocolate Bar,Immune Booster - 90 gr,IM-0,1,IDR,46000,0,0,0,46000,0,36662,36662,9338,46000,BCA
+TRX299,2025-04-11 19:15:00,Yanto Setiawan,081912345678,yanto.setiawan@email.com,Nichoa,Energy Bar,Almond Cranberries - 1 pcs,EBA-0,10,IDR,10000,0,0,0,100000,0,4558,45580,54420,100000,CASH
+TRX300,2025-04-11 20:30:00,Sri Wahyuni,081923456789,sri.wahyuni@email.com,Nichoa,Chocolate Bar,Sleeping Well - 35 gr,SW-1,8,IDR,28000,0,0,0,224000,0,22202,177608,46392,224000,QRIS

@@ -220,6 +220,11 @@ function mapCsvToDatabase(csvRow: any) {
     currency: csvRow.currency || 'IDR',
     paymentType: csvRow['payment type'] || csvRow.paymentType || 'CASH',
     
+    // Customer fields - NEW: support customer dari CSV
+    customerName: (csvRow['customer name'] || csvRow.customerName || '').trim(),
+    customerPhone: (csvRow['customer phone'] || csvRow.customerPhone || '').trim(),
+    customerEmail: (csvRow['customer email'] || csvRow.customerEmail || '').trim(),
+    
     // Product fields - Handle empty brand, name, dll
     brand: (csvRow.brand && csvRow.brand.trim()) || 'Unknown Brand',
     brandCommissionRate: parseFloat(csvRow['brand comission rate'] || csvRow.brandCommissionRate || '0') || 0,
@@ -287,26 +292,71 @@ async function importTransactionFromCsv(data: any, companyId: string, storeId?: 
     // Create transaction if not exists
     if (!transaction) {
 
-      // Create a default customer if needed
-      let customer = await prisma.customer.findFirst({
-        where: { 
-          companyId,
-          name: 'Import Customer'
+      // Create or find customer based on CSV data
+      let customer
+      
+      // Jika ada data customer di CSV, cari atau buat customer tersebut
+      if (data.customerName || data.customerPhone || data.customerEmail) {
+        // Cari customer berdasarkan phone (prioritas) atau email
+        if (data.customerPhone) {
+          customer = await prisma.customer.findFirst({
+            where: { 
+              companyId,
+              phone: data.customerPhone
+            }
+          })
         }
-      })
-
-      if (!customer) {
-        customer = await prisma.customer.create({
-          data: {
-            uniqueId: `CUST${Date.now()}`,
-            name: 'Import Customer',
+        
+        if (!customer && data.customerEmail) {
+          customer = await prisma.customer.findFirst({
+            where: { 
+              companyId,
+              email: data.customerEmail
+            }
+          })
+        }
+        
+        // Jika belum ada, buat customer baru dari data CSV
+        if (!customer) {
+          customer = await prisma.customer.create({
+            data: {
+              uniqueId: `CUST${Date.now()}${Math.random().toString(36).substr(2, 5)}`,
+              name: data.customerName || 'Customer',
+              phone: data.customerPhone || null,
+              email: data.customerEmail || null,
+              companyId,
+              isActive: true,
+              isMember: false,
+              membershipPoints: 0,
+              membershipDiscount: 0
+            }
+          })
+          console.log(`✅ Created new customer: ${customer.name} (${customer.phone || customer.email})`)
+        } else {
+          console.log(`✅ Using existing customer: ${customer.name} (${customer.phone || customer.email})`)
+        }
+      } else {
+        // Fallback: gunakan default customer jika tidak ada data customer di CSV
+        customer = await prisma.customer.findFirst({
+          where: { 
             companyId,
-            isActive: true,
-            isMember: false,
-            membershipPoints: 0,
-            membershipDiscount: 0
+            name: 'Import Customer'
           }
         })
+
+        if (!customer) {
+          customer = await prisma.customer.create({
+            data: {
+              uniqueId: `CUST${Date.now()}`,
+              name: 'Import Customer',
+              companyId,
+              isActive: true,
+              isMember: false,
+              membershipPoints: 0,
+              membershipDiscount: 0
+            }
+          })
+        }
       }
 
       // Validate and clean data before creating transaction
