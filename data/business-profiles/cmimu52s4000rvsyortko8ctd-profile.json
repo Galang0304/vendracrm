@@ -91,6 +91,14 @@
       {
         "question": "hai sebutkan smua 26 itu ",
         "frequency": 1
+      },
+      {
+        "question": "SAPA PELANGAN TERBAIK ",
+        "frequency": 1
+      },
+      {
+        "question": "KEDUA ?",
+        "frequency": 1
       }
     ],
     "userStyle": "casual",
@@ -109,6 +117,6 @@
       "Sales trend needs attention - consider promotional activities"
     ]
   },
-  "lastUpdated": "2025-12-20T05:41:49.472Z",
-  "learningScore": 90.29999999999998
+  "lastUpdated": "2025-12-21T14:53:17.503Z",
+  "learningScore": 90.49999999999997
 }
