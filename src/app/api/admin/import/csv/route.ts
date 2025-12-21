@@ -312,7 +312,7 @@ async function importTransactionFromCsv(data: any, companyId: string, storeId?: 
             where: { 
               companyId,
               email: data.customerEmail
-            }
+            } 
           })
         }
         
